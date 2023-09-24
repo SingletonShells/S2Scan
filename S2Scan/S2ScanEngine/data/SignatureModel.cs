@@ -8,5 +8,7 @@ namespace S2ScanEngine.data
 {
     public class SignatureModel
     {
+        public string signature { get; set; }
+        public string type { get; set; }
     }
 }

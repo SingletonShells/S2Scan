@@ -20,16 +20,18 @@ namespace S2ScanEngine.data
         public IFirebaseClient client;
 
         // Try Connecting
+
         public S2ScanDbConnection()
         {
             try
             {
                 client = new FireSharp.FirebaseClient(firebaseConfig);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                Console.WriteLine("Error Occured While Connecting");
+                
             }
+
         }
     }
 }

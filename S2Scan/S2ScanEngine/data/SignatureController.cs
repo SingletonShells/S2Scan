@@ -13,21 +13,19 @@ namespace S2ScanEngine.data
         S2ScanDbConnection conn = new S2ScanDbConnection();
 
         //Add Signatures To Online DB
-        public void SetData(string Name, string Surname, int age)
+        public void SetData(string Name, string type)
         {
             try
             {
                 SignatureModel set = new SignatureModel()
                 {
-                    //Name = Name,
-                    //Surname = Surname,
-                    //age = age
+                    signature = Name,
+                    type = type
                 };
-                var SetData = conn.client.Set("signature/" + Name, set);
+                var SetData = conn.client.Set("signatures/" + Name, set);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                Console.WriteLine("Encountered Error Adding New Signature");
             }
 
         }
@@ -43,7 +41,7 @@ namespace S2ScanEngine.data
                     //Surname = Surname,
                    // age = age
                 };
-                var SetData = conn.client.Update("signature/" + Name, set); ;
+                var SetData = conn.client.Update("signatures/" + Name, set); ;
             }
             catch (Exception)
             {
@@ -57,7 +55,7 @@ namespace S2ScanEngine.data
         {
             try
             {
-                FirebaseResponse al = conn.client.Get("signature");
+                FirebaseResponse al = conn.client.Get("signatures");
                 List<SignatureModel> dataSugnatures = JsonConvert.DeserializeObject<List<SignatureModel>>(al.Body.ToString());
                 return dataSugnatures;
             }
