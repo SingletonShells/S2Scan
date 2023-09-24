@@ -8,6 +8,11 @@ using System.Threading.Tasks;
 
 namespace S2ScanEngine.Signatures
 {
+    /// <summary>
+    /// Signature model by valerii-martell
+    /// Repo Name:
+    /// https://github.com/valerii-martell/Antivirus.git
+    /// </summary>
     public class Signatures
     {
         // Holds Known Malware Signatures

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace S2ScanEngine.Scans
 {
+
     public class Scan
     {
 
