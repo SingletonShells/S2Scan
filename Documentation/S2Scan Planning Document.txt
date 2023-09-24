@@ -1,0 +1,61 @@
+S2Scan Planning
+
+Engine
+--------------------------
+Signature-Based Detection
+Heuristic and Behavioral analysis
+Real-time Scanning
+
+Path Scan 
+==============================
+class Program
+{
+    static void Main(string[] args)
+    {
+        string directoryPath = @"C:\YourDirectoryPathHere"; // Replace with the directory you want to scan
+        FileScanner scanner = new FileScanner();
+        scanner.ScanDirectory(directoryPath);
+    }
+}
+
+Process Manager
+=========================
+class Program
+{
+    static void Main(string[] args)
+    {
+        ProcessMonitor processMonitor = new ProcessMonitor();
+        processMonitor.ProcessStarted += ProcessMonitor_ProcessStarted;
+
+        Console.WriteLine("Monitoring for new processes. Press Enter to exit.");
+        Console.ReadLine();
+
+        processMonitor.StopMonitoring();
+    }
+
+    private static void ProcessMonitor_ProcessStarted(object sender, string processName)
+    {
+        Console.WriteLine($"New process started: {processName}");
+        // You can perform any action you want here when a new process is started.
+    }
+
+Command Manager
+================================
+class Program
+{
+    static void Main(string[] args)
+    {
+        var monitor = new CommandLineMonitor();
+        monitor.CommandExecuted += (sender, commandLine) =>
+        {
+            Console.WriteLine($"Command Executed: {commandLine}");
+            // Call your custom method here.
+        };
+
+        monitor.StartMonitoring();
+
+        // Keep the program running to continue monitoring.
+        Console.WriteLine("Press Enter to exit.");
+        Console.ReadLine();
+    }
+}

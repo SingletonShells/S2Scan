@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sH6qGd9bWgUtxTMdrbur0MEFSsa0v4uZ5wMqJxJrfStDaYv4xnvfxmHpQdijRMQeicagw7rKyOxkF0DqDeVeBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shell\\OneDrive\\Desktop\\Stuff\\Projects\\C#\\.Net\\Antivirus\\S2Scan\\S2ScanEngine\\S2ScanEngine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shell\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\shell\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

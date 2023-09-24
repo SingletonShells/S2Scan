@@ -1,0 +1,12 @@
+C:\Users\shell\OneDrive\Desktop\Stuff\Projects\C#\.Net\Antivirus\S2Scan\S2ScanEngine\bin\Debug\net6.0\S2ScanEngine.deps.json
+C:\Users\shell\OneDrive\Desktop\Stuff\Projects\C#\.Net\Antivirus\S2Scan\S2ScanEngine\bin\Debug\net6.0\S2ScanEngine.dll
+C:\Users\shell\OneDrive\Desktop\Stuff\Projects\C#\.Net\Antivirus\S2Scan\S2ScanEngine\bin\Debug\net6.0\S2ScanEngine.pdb
+C:\Users\shell\OneDrive\Desktop\Stuff\Projects\C#\.Net\Antivirus\S2Scan\S2ScanEngine\obj\Debug\net6.0\S2ScanEngine.csproj.AssemblyReference.cache
+C:\Users\shell\OneDrive\Desktop\Stuff\Projects\C#\.Net\Antivirus\S2Scan\S2ScanEngine\obj\Debug\net6.0\S2ScanEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shell\OneDrive\Desktop\Stuff\Projects\C#\.Net\Antivirus\S2Scan\S2ScanEngine\obj\Debug\net6.0\S2ScanEngine.AssemblyInfoInputs.cache
+C:\Users\shell\OneDrive\Desktop\Stuff\Projects\C#\.Net\Antivirus\S2Scan\S2ScanEngine\obj\Debug\net6.0\S2ScanEngine.AssemblyInfo.cs
+C:\Users\shell\OneDrive\Desktop\Stuff\Projects\C#\.Net\Antivirus\S2Scan\S2ScanEngine\obj\Debug\net6.0\S2ScanEngine.csproj.CoreCompileInputs.cache
+C:\Users\shell\OneDrive\Desktop\Stuff\Projects\C#\.Net\Antivirus\S2Scan\S2ScanEngine\obj\Debug\net6.0\S2ScanEngine.dll
+C:\Users\shell\OneDrive\Desktop\Stuff\Projects\C#\.Net\Antivirus\S2Scan\S2ScanEngine\obj\Debug\net6.0\refint\S2ScanEngine.dll
+C:\Users\shell\OneDrive\Desktop\Stuff\Projects\C#\.Net\Antivirus\S2Scan\S2ScanEngine\obj\Debug\net6.0\S2ScanEngine.pdb
+C:\Users\shell\OneDrive\Desktop\Stuff\Projects\C#\.Net\Antivirus\S2Scan\S2ScanEngine\obj\Debug\net6.0\ref\S2ScanEngine.dll
